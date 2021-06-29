@@ -112,7 +112,6 @@ img {
 
 	#lezioni > div > h1 {
 		font-size: 1.6em;
-		padding-top: 10px;
 	}
 
 	#steps .row > .left,
@@ -127,7 +126,9 @@ img {
 		height: 100px;
 	}
 
-	#why > div > h1 {
+	#why > div > h1,
+	#steps > div > h1,
+	#lezioni > div > h1 {
 		padding-top: 10px;
 	}
 
@@ -144,5 +145,56 @@ img {
 
 	#why .row img {
 		padding: 20px;
+	}
+}
+
+/* Inizio Parte di BONUS */
+@media (min-width: 420px) and (max-width: 768px) {
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	.row {
+		min-width: 420px;
+		max-width: 768px;
+		margin-top: 0;
+	}
+
+	#lezioni .row > .left {
+		width: 75%;
+		float: left;
+	}
+
+	#lezioni .row > .right {
+		width: 75%;
+		float: right;
+	}
+
+	#lezioni > div > h1,
+	#steps > div > h1,
+	#why > div > h1 {
+		padding: 20px 0;
+	}
+
+	#lezioni .row,
+	#why .row {
+		background-color: lightblue;
+	}
+
+	#why .row > .first,
+	#why .row > .third {
+		float: left;
+		width: 60%;
+	}
+
+	#why .row > .second {
+		float: right;
+		width: 60%;
+	}
+
+	hr {
+		display: none;
 	}
 }
