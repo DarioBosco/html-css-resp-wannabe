@@ -89,7 +89,7 @@ img {
 	}
 
 	.row {
-		max-width: 419px;
+		width: 100%;
 		margin-top: 0;
 	}
 
@@ -157,8 +157,6 @@ img {
 	}
 
 	.row {
-		min-width: 420px;
-		max-width: 768px;
 		margin-top: 0;
 	}
 
